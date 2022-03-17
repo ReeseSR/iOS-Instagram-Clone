@@ -21,6 +21,7 @@
 		8354FBCE27D7AC9600B47C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8354FBCC27D7AC9600B47C43 /* LaunchScreen.storyboard */; };
 		8354FBD727D7AE4A00B47C43 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8354FBD627D7AE4A00B47C43 /* .swiftlint.yml */; };
 		8354FBE227D7BE9A00B47C43 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354FBE127D7BE9A00B47C43 /* MainTabController.swift */; };
+		83BEEE9027E32C4100EBA265 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BEEE8F27E32C4100EBA265 /* AuthenticationViewModel.swift */; };
 		83EF323827DCDD310066EAC5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF323727DCDD310066EAC5 /* LoginViewController.swift */; };
 		83EF323A27DCDD5A0066EAC5 /* RegisterationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF323927DCDD5A0066EAC5 /* RegisterationViewController.swift */; };
 		83FE403527DA42F9005C049E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE403427DA42F9005C049E /* FeedCell.swift */; };
@@ -44,6 +45,7 @@
 		8354FBCF27D7AC9600B47C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8354FBD627D7AE4A00B47C43 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		8354FBE127D7BE9A00B47C43 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		83BEEE8F27E32C4100EBA265 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		83EF323727DCDD310066EAC5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83EF323927DCDD5A0066EAC5 /* RegisterationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationViewController.swift; sourceTree = "<group>"; };
 		83FE403427DA42F9005C049E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		8354FBDB27D7B33C00B47C43 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				83BEEE8F27E32C4100EBA265 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				83FE403527DA42F9005C049E /* FeedCell.swift in Sources */,
 				8303FDC527D8F7C30056F0CC /* ImageSelectorController.swift in Sources */,
 				8303FDC327D8F7B50056F0CC /* SearchController.swift in Sources */,
+				83BEEE9027E32C4100EBA265 /* AuthenticationViewModel.swift in Sources */,
 				8354FBC227D7AC9400B47C43 /* AppDelegate.swift in Sources */,
 				8303FDC127D8F7A80056F0CC /* FeedController.swift in Sources */,
 				8354FBE227D7BE9A00B47C43 /* MainTabController.swift in Sources */,
